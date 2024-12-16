@@ -1,0 +1,82 @@
+// Змінні
+$font-family: 'Arial, sans-serif';
+$color-primary: #0a74da;
+$color-secondary: #f4f4f4;
+$color-text: #333;
+$color-footer-bg: #0a74da;
+$color-footer-text: #fff;
+
+// Загальні стилі
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $color-secondary;
+  color: $color-text;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: $color-primary;
+  color: $color-footer-text;
+  text-align: center;
+  padding: 1.5rem;
+
+  &__title {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  &__subtitle {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+  }
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card {
+  background-color: $color-footer-text;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+
+  &__image-wrapper {
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+.footer {
+  background-color: $color-footer-bg;
+  color: $color-footer-text;
+  text-align: center;
+  padding: 1rem;
+
+  &__text {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}

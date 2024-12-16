@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #d9edf7;
+}
+.time-slot {
+    background-color: #f2f2f2;
+}
+.empty-slot {
+    background-color: #e0e0e0;
+}
+.subject {
+    background-color: #dff0d8;
+}
+.subject-alt {
+    background-color: #fcf8e3;
+}
+.subject-alt2 {
+    background-color: #d9edf7;
+}
+.subject-alt3 {
+    background-color: #f2dede;
+}

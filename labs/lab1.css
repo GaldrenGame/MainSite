@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5C2E2E; /* Фоновий колір */
+    color: #fff; /* Колір тексту */
+}
+
+header {
+    background-color: #3E1F1F; /* Колір фону заголовка */
+    color: white; /* Колір тексту заголовка */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Вимкнення маркерів списку */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Використання флексбоксу */
+    justify-content: center; /* Центрування елементів по горизонталі */
+    gap: 20px; /* Проміжок між кнопками */
+}
+
+nav ul li {
+    display: inline; /* Встановлення рядкового відображення для кнопок */
+}
+
+nav ul li a {
+    color: white; /* Колір тексту кнопок */
+    text-decoration: none; /* Вимкнення підкреслення */
+    font-weight: bold; /* Жирний шрифт */
+    padding: 10px 20px; /* Внутрішні відступи */
+    background-color: #722F2F; /* Колір фону кнопок */
+    border-radius: 5px; /* Закруглення кутів кнопок */
+    transition: background-color 0.3s; /* Анімація зміни кольору фону */
+}
+
+nav ul li a:hover {
+    background-color: #9F4141; /* Колір фону кнопок при наведенні */
+}
+
+main {
+    padding: 50px 20px; /* Внутрішні відступи для основного контенту */
+    max-width: 800px; /* Максимальна ширина основного контенту */
+    margin: 0 auto; /* Центрування основного контенту */
+    text-align: justify; /* Вирівнювання тексту */
+    line-height: 1.6; /* Висота рядка */
+}
+
+form {
+    display: flex; /* Використання флексбоксу для форми */
+    flex-direction: column; /* Вертикальне розташування полів форми */
+    gap: 15px; /* Проміжок між полями форми */
+}
+
+footer {
+    background-color: #3E1F1F; /* Колір фону футера */
+    padding: 10px 0; /* Внутрішні відступи футера */
+    text-align: center; /* Центрування тексту футера */
+    margin-top: 20px; /* Відступ зверху футера */
+    font-size: 0.9em; /* Розмір шрифту футера */
+    color: #CCC; /* Колір тексту футера */
+}

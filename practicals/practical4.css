@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1400px; /* Збільшили ширину клавіатури */
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    gap: 6px; /* Відстань між клавішами */
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    flex: 1; /* Автоматичне вирівнювання */
+    height: 60px; /* Однакова висота для всіх клавіш */
+    min-width: 60px; /* Мінімальна ширина */
+}
+
+.key.double {
+    flex: 2; /* Подвійна ширина */
+}
+
+.key.triple {
+    flex: 3; /* Потрійна ширина */
+}
+
+.key.wide {
+    flex: 6; /* Широка клавіша, наприклад "Space" */
+}
+
+.spacer.small {
+    flex: 0.5;
+}
+
+.spacer.medium {
+    flex: 1;
+}

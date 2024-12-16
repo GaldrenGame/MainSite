@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="text">
+                <h1>Hi, I am John,<br><span>Creative Technologist</span></h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+            <div class="image">
+                <img src="face.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Recent Posts -->
+    <section class="recent-posts">
+        <div class="container">
+            <h2>Recent Posts</h2>
+            <div class="posts">
+                <div class="post">
+                    <h3>Making a design system from scratch</h3>
+                    <p class="date">12 Feb 2020 · Design, Pattern</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="post">
+                    <h3>Creating pixel perfect icons in Figma</h3>
+                    <p class="date">12 Feb 2020 · Figma, Icon Design</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Works -->
+    <section class="featured-works">
+        <div class="container">
+            <h2>Featured Works</h2>
+            <div class="work">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*rQ3d_dKG7V2JhX8SrUjs6g.png" alt="Designing Dashboards">
+                <div class="work-text">
+                    <h3>Designing Dashboards</h3>
+                    <p class="category">2020 · Dashboard</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.pinimg.com/736x/79/ea/d2/79ead2312a79d277c5e36c4f13263050.jpg" alt="Vibrant Portraits">
+                <div class="work-text">
+                    <h3>Vibrant Portraits of 2020</h3>
+                    <p class="category">2020 · Illustration</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="data:image/jpeg;base64,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" alt="Typography">
+                <div class="work-text">
+                    <h3>36 Days of Malayalam Type</h3>
+                    <p class="category">2020 · Typography</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>Copyright © 2020 All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
