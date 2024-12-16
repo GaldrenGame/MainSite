@@ -1,80 +1,80 @@
 body {
-    font-family: Arial, sans-serif; /* Шрифт для всього документа */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Колір фону для всього документа */
-    color: #333; /* Колір тексту */
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
-    background-color: #722F2F; /* Колір фону заголовка */
-    color: white; /* Колір тексту заголовка */
-    padding: 20px; /* Внутрішні відступи */
-    text-align: center; /* Центрування тексту */
+    background-color: #722F2F;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 main {
-    display: flex; /* Використання флексбоксу */
-    justify-content: center; /* Центрування форми по горизонталі */
-    align-items: center; /* Центрування форми по вертикалі */
-    height: calc(100vh - 100px); /* Висота основного контейнера */
-    margin: 0 auto; /* Додаткове центрування */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
 }
 
 form {
-    background-color: white; /* Колір фону форми */
-    color: #333; /* Колір тексту у формі */
-    width: 100%; /* Ширина форми */
-    max-width: 400px; /* Максимальна ширина форми */
-    padding: 40px; /* Зменшення внутрішніх відступів для естетики */
-    border-radius: 10px; /* Закруглені кути */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */
-    box-sizing: border-box; /* Гарантія коректного розрахунку розмірів */
+    background-color: white;
+    color: #333;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
 }
 
 label {
-    display: block; /* Вирівнювання міток над полями */
-    margin-bottom: 5px; /* Відступи для міток */
-    font-weight: bold; /* Виділення міток */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-    width: 100%; /* Ширина полів вводу */
-    padding: 10px; /* Внутрішні відступи */
-    border: 1px solid #ccc; /* Колір рамки */
-    border-radius: 5px; /* Закруглені кути */
-    margin-bottom: 15px; /* Відступи між полями */
-    outline: none; /* Вимкнення обведення при фокусі */
-    box-sizing: border-box; /* Коректний розрахунок ширини */
-    transition: border-color 0.3s ease; /* Анімація зміни кольору рамки */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="password"]:focus {
-    border-color: #722F2F; /* Колір рамки при фокусі */
-    box-shadow: 0 0 5px rgba(114, 47, 47, 0.5); /* Додавання м'якої тіні при фокусі */
+    border-color: #722F2F;
+    box-shadow: 0 0 5px rgba(114, 47, 47, 0.5);
 }
 
 button {
-    background-color: #722F2F; /* Колір фону кнопки */
-    color: white; /* Колір тексту кнопки */
-    padding: 10px 20px; /* Внутрішні відступи кнопки */
-    border: none; /* Вимкнення рамки */
-    border-radius: 5px; /* Закруглені кути кнопки */
-    cursor: pointer; /* Індикатор активності кнопки */
-    font-size: 16px; /* Збільшений розмір тексту кнопки */
-    transition: background-color 0.3s ease; /* Анімація зміни кольору фону кнопки */
+    background-color: #722F2F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #5a2323; /* Зміна кольору кнопки при наведенні */
+    background-color: #5a2323;
 }
 
 button:active {
-    background-color: #4e1d1d; /* Зміна кольору кнопки при натисканні */
+    background-color: #4e1d1d;
 }

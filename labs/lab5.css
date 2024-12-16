@@ -1,4 +1,3 @@
-/* Загальні стилі */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,17 +11,16 @@ body {
     margin: 0 auto;
 }
 
-/* Секція Hero */
 .hero {
-    display: flex; /* Використовуємо Flexbox */
-    align-items: center; /* Вирівнювання елементів по вертикалі */
-    justify-content: space-between; /* Розташовуємо текст і фото з боків */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 50px 0;
 }
 
 .hero .text {
-    flex: 1; /* Текст займає одну частину ширини */
-    padding-right: 20px; /* Відступ між текстом і фото */
+    flex: 1;
+    padding-right: 20px;
 }
 
 .hero h1 {
@@ -53,20 +51,19 @@ body {
 }
 
 .hero .image {
-    flex: 0 0 200px; /* Фіксована ширина для зображення */
-    text-align: right; /* Вирівнювання зображення праворуч */
+    flex: 0 0 200px;
+    text-align: right;
 }
 
 .hero .image img {
-    margin-top: -210px; /* Піднімає фото вгору */    
-    width: 100%; /* Фото займає всю доступну ширину */
-    max-width: 200px; /* Максимальна ширина фото */
-    border-radius: 50%; /* Кругле фото */
+    margin-top: -210px;    
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
 }
 
 
 
-/* Recent Posts */
 .recent-posts {
     padding: 40px 0;
     background: #eaf4ff;
@@ -102,7 +99,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Featured Works */
+
 .featured-works h2 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -131,7 +128,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Footer */
+
 footer {
     background: #f9f9f9;
     padding: 20px 0;

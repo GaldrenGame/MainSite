@@ -1,4 +1,4 @@
-// Змінні
+
 $font-family: 'Arial, sans-serif';
 $color-primary: linear-gradient(135deg, #0a74da, #0066cc);
 $color-secondary: #f4f4f4;
@@ -7,7 +7,6 @@ $color-footer-bg: #0a74da;
 $color-footer-text: #fff;
 $box-shadow-main: 0 4px 8px rgba(0, 0, 0, 0.15);
 
-// Загальні стилі
 body {
   font-family: $font-family;
   margin: 0;
@@ -103,7 +102,6 @@ body {
   }
 }
 
-// Анімації
 @keyframes fadeInDown {
   from {
     opacity: 0;
